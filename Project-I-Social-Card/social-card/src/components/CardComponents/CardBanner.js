@@ -6,3 +6,5 @@ const CardBanner = () => {
         <div>CardBanner</div>
     );
 }
+
+export default CardBanner;

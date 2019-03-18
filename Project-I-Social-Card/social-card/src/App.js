@@ -1,17 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import './App.css';
-// import CardContainer from'./components/CardComponents/CardContainer';
-import CardBanner from './components/CardComponents/CardBanner';
+import CardContainer from'./components/CardComponents/CardContainer';
+import CardBanner from './components/CardComponents/CardBanner'
 
-class App extends Component {
-  render() {    
+const App = () => {
+  
     return(
      <div>
-      {/* <CardContainer /> */}
+      <CardContainer />
       <CardBanner />
      </div>
-   )
-  };
+   );
+  
 };
 
-
+export default App;
